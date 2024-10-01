@@ -8,30 +8,30 @@ repository = 'https://github.com/gautamdhameja/substrate-validator-set'
 
 [patch.crates-io]
 # Path build to use our Substrate version from github.
-frame-benchmarking = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-frame-support = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-frame-system = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-pallet-session = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-pallet-timestamp = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-api = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-application-crypto = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-arithmetic = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-core = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-externalities = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-inherents = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-io = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-keystore = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-runtime = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-weights = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-runtime-interface = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-session = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-state-machine = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-std = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-storage = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-timestamp = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-tracing = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-trie = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-version = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
+frame-benchmarking = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+frame-support = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+frame-system = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+pallet-session = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+pallet-timestamp = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-api = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-application-crypto = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-arithmetic = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-core = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-externalities = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-inherents = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-io = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-keystore = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-runtime = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-weights = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-runtime-interface = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-session = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-state-machine = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-std = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-storage = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-timestamp = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-tracing = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-trie = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
+sp-version = { git = "https://github.com/PolymeshAssociation/substrate", branch = "polymesh-v6-monthly-2023-03-test-s390x" }
 
 [dev-dependencies.serde]
 features = ['derive']
@@ -39,28 +39,28 @@ version = '1.0.126'
 
 [dependencies.sp-core]
 default-features = false
-git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+git = 'https://github.com/PolymeshAssociation/substrate.git'
+branch = 'polymesh-v6-monthly-2023-03-test-s390x'
 
 [dependencies.sp-io]
 default-features = false
-git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+git = 'https://github.com/PolymeshAssociation/substrate.git'
+branch = 'polymesh-v6-monthly-2023-03-test-s390x'
 
 [dependencies.sp-runtime]
 default-features = false
-git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+git = 'https://github.com/PolymeshAssociation/substrate.git'
+branch = 'polymesh-v6-monthly-2023-03-test-s390x'
 
 [dependencies.sp-std]
 default-features = false
-git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+git = 'https://github.com/PolymeshAssociation/substrate.git'
+branch = 'polymesh-v6-monthly-2023-03-test-s390x'
 
 [dependencies.sp-staking]
 default-features = false
-git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+git = 'https://github.com/PolymeshAssociation/substrate.git'
+branch = 'polymesh-v6-monthly-2023-03-test-s390x'
 
 [dependencies.log]
 default-features = false
@@ -74,25 +74,25 @@ version = '3.0.0'
 
 [dependencies.frame-benchmarking]
 default-features = false
-git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
+git = 'https://github.com/PolymeshAssociation/substrate.git'
 optional = true
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'polymesh-v6-monthly-2023-03-test-s390x'
 
 [dependencies.frame-support]
 default-features = false
-git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+git = 'https://github.com/PolymeshAssociation/substrate.git'
+branch = 'polymesh-v6-monthly-2023-03-test-s390x'
 
 [dependencies.frame-system]
 default-features = false
-git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+git = 'https://github.com/PolymeshAssociation/substrate.git'
+branch = 'polymesh-v6-monthly-2023-03-test-s390x'
 
 [dependencies.pallet-session]
 default-features = false
 features = ['historical']
-git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+git = 'https://github.com/PolymeshAssociation/substrate.git'
+branch = 'polymesh-v6-monthly-2023-03-test-s390x'
 
 [dependencies.scale-info]
 default-features = false
