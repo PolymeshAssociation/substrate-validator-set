@@ -8,30 +8,33 @@ repository = 'https://github.com/gautamdhameja/substrate-validator-set'
 
 [patch.crates-io]
 # Path build to use our Substrate version from github.
-frame-benchmarking = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-frame-support = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-frame-system = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-pallet-session = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-pallet-timestamp = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-api = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-application-crypto = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-arithmetic = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-core = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-externalities = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-inherents = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-io = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-keystore = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-runtime = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-weights = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-runtime-interface = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-session = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-state-machine = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-std = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-storage = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-timestamp = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-tracing = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-trie = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
-sp-version = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "polymesh-v6-monthly-2023-03" }
+frame-benchmarking = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+frame-support = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+frame-system = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+pallet-session = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+pallet-timestamp = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-api = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-application-crypto = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-arithmetic = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-core = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-externalities = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-inherents = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-io = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-keystore = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-runtime = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-weights = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-runtime-interface = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-session = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-state-machine = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-std = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-storage = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-timestamp = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-tracing = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-trie = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+sp-version = { git = "https://github.com/PolymeshAssociation/polkadot-sdk", branch = "cli-tool" }
+
+[dependencies.substrate-bip39]
+version = "=0.4.5"
 
 [dev-dependencies.serde]
 features = ['derive']
@@ -40,27 +43,27 @@ version = '1.0.126'
 [dependencies.sp-core]
 default-features = false
 git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'cli-tool'
 
 [dependencies.sp-io]
 default-features = false
 git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'cli-tool'
 
 [dependencies.sp-runtime]
 default-features = false
 git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'cli-tool'
 
 [dependencies.sp-std]
 default-features = false
 git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'cli-tool'
 
 [dependencies.sp-staking]
 default-features = false
 git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'cli-tool'
 
 [dependencies.log]
 default-features = false
@@ -76,23 +79,23 @@ version = '3.0.0'
 default-features = false
 git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
 optional = true
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'cli-tool'
 
 [dependencies.frame-support]
 default-features = false
 git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'cli-tool'
 
 [dependencies.frame-system]
 default-features = false
 git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'cli-tool'
 
 [dependencies.pallet-session]
 default-features = false
 features = ['historical']
 git = 'https://github.com/PolymeshAssociation/polkadot-sdk.git'
-branch = 'polymesh-v6-monthly-2023-03'
+branch = 'cli-tool'
 
 [dependencies.scale-info]
 default-features = false
